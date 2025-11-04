@@ -25,10 +25,10 @@ export default function Footer() {
           <div>
             <p className="font-semibold">Layanan</p>
             <ul className="mt-4 space-y-2 text-sm text-black/70">
-              <li>Strategi & Konsultasi</li>
-              <li>Produk Digital</li>
-              <li>Produksi Konten</li>
-              <li>Performa & Media</li>
+              <li><a className="hover:text-black hover:underline underline-offset-4" href="#capabilities">Strategi & Konsultasi</a></li>
+              <li><a className="hover:text-black hover:underline underline-offset-4" href="#capabilities">Produk Digital</a></li>
+              <li><a className="hover:text-black hover:underline underline-offset-4" href="#capabilities">Produksi Konten</a></li>
+              <li><a className="hover:text-black hover:underline underline-offset-4" href="#capabilities">Performa & Media</a></li>
             </ul>
           </div>
 
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex items-center justify-between border-t border-black/10 pt-6 text-xs text-black/60">
+        <div className="mt-12 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between border-t border-black/10 pt-6 text-xs text-black/60">
           <p>© {new Date().getFullYear()} Flames Corporation. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <a href="#" className="hover:text-black">Privacy</a>
